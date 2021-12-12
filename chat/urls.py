@@ -25,7 +25,10 @@ urlpatterns = [
     path('api/messages/<int:gId>/<int:round_num>', views.message_list, name='messages_all'),
     #POST
     path('api/messages', views.message_list, name='message_details'),
-    
+
+    #EVALUATION
+    #GET
+    path('api/evaluate/<int:gId>',views.evaluate_game, name='evaluate_game'),
     
 ]
 
