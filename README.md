@@ -6,7 +6,7 @@ The virtual environment has to be activated by going into the /env/Scripts direc
 
 ## Running the Application
 Next go in to the main directory and run 
-`python manage.py migrate`
+`python manage.py runserver`
 
 ## Additional Help
 Make sure other dependencies are installed. Any errors should be solves by the following commands:
